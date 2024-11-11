@@ -32,14 +32,8 @@
                 document.getElementById('result').innerText = 'Your guess is too low. Try again.';
             } else {
                 document.getElementById('result').innerText = `Correct! You guessed the number in ${guessCount} tries.`;
-                playAgain = confirm('Do you want to play again?');
-                if (playAgain) {
-                    startGame();
-                }
             }
         }
-
-        startGame();
     </script>
 </body>
 </html>
